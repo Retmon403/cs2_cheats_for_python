@@ -20,6 +20,9 @@
 你是不是想问我，运行起来为什么这么卡？  
 答：用易语言就不会卡  
 
+为什么不用c++，却用python？ 
+因为简单  
+
 如何更新？
 把offset.py文件里的 dwEntityList，dwLocalPlayerController，dwViewMatrix  
 更新一下就行了，至于client里的offset 一般不会变。  
