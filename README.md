@@ -9,11 +9,12 @@
 1.pymem  
 2.pywin32全家桶  
 3.ctypes  
-4.imgui[pyglet]  
+4.imgui里的pyglet 别傻不拉几的全装了  
 5. pyglet  
-
 什么？你问我为什么要用imgui画窗口却用GDI绘制？   
 咱老北京儿人没别的，您猜怎么着？诶，就是这一出~  
+
+咱易语言大手子，没别的，就爱写挂，牢饭吃到饱  
 # 截图
 ![image](https://github.com/Retmon403/cs2_cheats_python/blob/main/1.png)
 ![image](https://github.com/Retmon403/cs2_cheats_python/blob/main/2.png)
