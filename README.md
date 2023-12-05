@@ -18,7 +18,12 @@
 
 # 问题
 你是不是想问我，运行起来为什么这么卡？  
-答：用易语言就不会卡
+答：用易语言就不会卡  
+
+如何更新？
+把offset.py文件里的 dwEntityList，dwLocalPlayerController，dwViewMatrix  
+更新一下就行了，至于client里的offset 一般不会变。  
+（其实dwLocalPlayerController 都不需要，因为第一个对象始终是自己hhh） 
 # 你好，搞男童了解一下？
 同性交友群:707649195  
 # 截图
