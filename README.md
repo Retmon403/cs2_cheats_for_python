@@ -15,6 +15,8 @@
 咱老北京儿人没别的，您猜怎么着？诶，就是这一出~  
 
 咱易语言大手子，没别的，就爱写挂，牢饭吃到饱  
+# 你好，搞男童了解一下？
+同性交友群:707649195  
 # 截图
 ![image](https://github.com/Retmon403/cs2_cheats_python/blob/main/1.png)
 ![image](https://github.com/Retmon403/cs2_cheats_python/blob/main/2.png)
