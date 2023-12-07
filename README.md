@@ -17,17 +17,23 @@
 
 咱易语言大手子，没别的，就爱写挂，牢饭吃到饱  
 
+
+# 更新日志
+2023/12/7
+英语很烂，所以变量和函数命名比较随意，但代码逻辑还是很精简的  
+很努力的优化gdi让他可以流畅的绘图而不会出现闪框  
+现在加入了平滑自瞄,加入了自动更新offset  
+优化了运行效率,修了一些bug  
+还想加许多功能，但我担心gdi太卡  
 # 问题
 你是不是想问我，运行起来为什么这么卡？  
 答：用易语言就不会卡  
 
-为什么不用c++，却用python？ 
-因为简单  
+为什么不用c++，却用python？  
+答：因为python写起来简单，代码量比c++少一万倍  
 
-如何更新？
-把offset.py文件里的 dwEntityList，dwLocalPlayerController，dwViewMatrix  
-更新一下就行了，至于client里的offset 一般不会变。  
-（其实dwLocalPlayerController 都不需要，因为第一个对象始终是自己hhh） 
+如何更新offset?  
+答：main.py中 变量->UPDATE_OFFSET默认为TRUE 程序会自动更新偏移量  
 # 你好，搞男童了解一下？
 同性交友群:707649195  
 # 截图
