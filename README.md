@@ -1,4 +1,4 @@
-# cs2_cheats_python
+# cs2_cheats_for_python
 适用于中国宝宝体质的cs2作弊  
 以前是以前，现在是现在  
 狗鑫：开了就是开了？  
