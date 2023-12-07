@@ -16,9 +16,9 @@
 4.pip install pyimgui   
 5.pip install pyglet  
   
-为什么要使用ImGui画窗口却用GDI绘制？   
+为什么要使用ImGui画窗口却用GDI绘制？  
 咱老北京儿人没别的，您猜怎么着？诶，就是这一出~  
-咱是易语言大手子， C++我不会:(
+咱是易语言大手子， C++我不会:(  
 
 
 # 更新日志
