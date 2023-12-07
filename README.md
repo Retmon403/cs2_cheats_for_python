@@ -23,7 +23,6 @@ Gouxin: If it's open, it's open?
   
 为什么要使用ImGui画窗口却用GDI绘制？  
 咱老北京儿人没别的，您猜怎么着？诶，就是这一出~  
-咱是易语言大手子， C++我不会:(  
 
 Having a Python 64bit environment
 
