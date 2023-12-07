@@ -7,19 +7,18 @@
 1.esp_box  
 2.esp_bons  
 3.aimbot  
-# 运行
-想要运行这个b玩意，你要有python环境 且是64位的[我用的3.8]  
-你还需要pip install 如下一堆破烂  
-1.pymem  
-2.pywin32全家桶  
-3.ctypes  
-4.imgui里的pyglet 别傻不拉几的全装了  
-5. pyglet  
+# 如何运行
+ 拥有Python 64bit环境  
+你还需要[pip install ...] 一些关键模块  
+1.pip install pymem  
+2.pip install pywin32  
+3.pip install ctypes  
+4.pip install pyimgui   
+5.pip install pyglet  
   
-什么？你问我为什么要用imgui画窗口却用GDI绘制？   
+为什么要使用ImGui画窗口却用GDI绘制？   
 咱老北京儿人没别的，您猜怎么着？诶，就是这一出~  
-
-咱易语言大手子，没别的，就爱写挂，牢饭吃到饱  
+咱是易语言大手子， C++我不会:(
 
 
 # 更新日志
