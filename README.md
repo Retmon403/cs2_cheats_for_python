@@ -53,6 +53,7 @@ We are experts in Yi language, and I don't know C++:（
 2.加入了平滑自瞄,加入了自动更新offset  
 3.优化了运行效率,修了一些bug  
 还想加许多功能，但我担心Python跑起来太卡  
+
 English is terrible, so variable and function names are quite casual, but the code logic is still very concise
 
 1. He worked very hard to optimize GDI so that he could draw smoothly without flashing frames
