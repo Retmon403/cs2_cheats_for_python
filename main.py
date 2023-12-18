@@ -7,7 +7,7 @@ from cheats.myimgui import *
 from cheats.ui_menu import *
 from cheats.offset import *
 # 已开源到同性交友网站 https://github.com/Retmon403/cs2_cheats_python/tree/main
-
+# Cs2Dump https://github.com/a2x/cs2-dumper
 # 2023/12/7
 # 英语很烂，所以变量和函数命名比较随意，但代码逻辑还是很精简的
 # 1.很努力的优化gdi让他可以流畅的绘图而不会出现闪框
