@@ -12,7 +12,7 @@ class UI_MENU:
     rcs_inhibit = 2.1
     aim_bons = 0
     aim_items = [6, 5, 4]
-    aim_select = 2
+    aim_select = 0
 
     aim_scope = 150
     aim_rcs = True
