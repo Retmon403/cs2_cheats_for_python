@@ -73,6 +73,21 @@ Added combos and automatic triggers
 Added targeting location option  
 After successfully obtaining the offset, it will be stored in a file  
 Some bug fixes and performance optimizations  
+_____________________________________________  
+2024/2/21  
+增加了EspInfo(player_weapon,player_name,player_health)  
+增加了rcs抑制控制滑块  
+增加了trigger持续时间控制滑块  
+修复了trigger效率问题  
+一些bug修复和性能优化  
+ps：感谢大家的使用,如果您需要自己修改偏移量，只需修改client.py内的内容 并将UPDATE_OFFSET设置为false，再修改offset_config文件内的偏移  
+February 21, 2024  
+Added EspInfo (player_weapon, playername, player_health)  
+Added RCS suppression control slider  
+Added trigger duration control slider  
+Fixed trigger efficiency issue  
+Some bug fixes and performance optimizations  
+PS: Thank you for using it. If you need to modify the offset yourself, just modify the content in client.py and set UPDATE-OFFSET to false, then modify the offset in the offset_config file  
 # 问题
 你是不是想问我，运行起来为什么这么卡？  
 答：用易语言就不会卡  
