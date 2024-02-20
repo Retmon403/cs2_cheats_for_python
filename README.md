@@ -6,8 +6,8 @@ CS2 cheating applicable to the physical constitution of Chinese babies
 Previously, now is now  
 Gouxin: If it's open, it's open?  
 # 功能
-1.EspBox 
-2.EspBons 
+1.EspBox  
+2.EspBons  
 3.Esp player name/weapon  
 4.Aimbot  
 5.Rcs  
