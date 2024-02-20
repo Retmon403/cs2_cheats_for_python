@@ -52,7 +52,7 @@ We are experts in Yi language, and I don't know C++:（
 2.加入了平滑自瞄,加入了自动更新offset  
 3.优化了运行效率,修了一些bug  
 还想加许多功能，但我担心Python跑起来太卡  
-_____________________________________________
+_____________________________________________  
 2024/2/20  
 修复了偏移定位使用的特征码  
 使用了最新的cs2dump client偏移数据  
@@ -66,7 +66,8 @@ English is terrible, so variable and function names are quite casual, but the co
 2. Added smooth self aiming and automatic update offset  
 3. Optimized operational efficiency and fixed some bugs  
 I still want to add many functions, but I'm worried that Python will run too laggy
-2024/2/20
+_____________________________________________  
+2024/2/20  
 Fixed feature codes used for offset positioning  
 Using the latest cs2dump client offset data  
 Added combos and automatic triggers  
