@@ -10,7 +10,7 @@ class UI_MENU:
     aim_bot = True
 
     rcs_inhibit = 2.1
-    aim_bons = 2
+    aim_bons = 0
     aim_items = [6, 5, 4]
     aim_select = 2
 
