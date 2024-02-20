@@ -53,22 +53,26 @@ We are experts in Yi language, and I don't know C++:（
 3.优化了运行效率,修了一些bug  
 还想加许多功能，但我担心Python跑起来太卡  
 _____________________________________________
-2024/2/20
-修复了偏移定位使用的特征码
-使用了最新的cs2dump client偏移数据
-增加了连跳和自动扳机
-添加了瞄准部位选项
-offset在成功获取到后会被储存进文件
-一些bug修复和性能优化
-English is terrible, so variable and function names are quite casual, but the code logic is still very concise
-
-1. He worked very hard to optimize GDI so that he could draw smoothly without flashing frames
-
-2. Added smooth self aiming and automatic update offset
-
-3. Optimized operational efficiency and fixed some bugs
-
+2024/2/20  
+修复了偏移定位使用的特征码  
+使用了最新的cs2dump client偏移数据  
+增加了连跳和自动扳机  
+添加了瞄准部位选项  
+offset在成功获取到后会被储存进文件  
+一些bug修复和性能优化  
+2023/12/7  
+English is terrible, so variable and function names are quite casual, but the code logic is still very concise  
+1. He worked very hard to optimize GDI so that he could draw smoothly without flashing frames  
+2. Added smooth self aiming and automatic update offset  
+3. Optimized operational efficiency and fixed some bugs  
 I still want to add many functions, but I'm worried that Python will run too laggy
+2024/2/20
+Fixed feature codes used for offset positioning  
+Using the latest cs2dump client offset data  
+Added combos and automatic triggers  
+Added targeting location option  
+After successfully obtaining the offset, it will be stored in a file  
+Some bug fixes and performance optimizations  
 # 问题
 你是不是想问我，运行起来为什么这么卡？  
 答：用易语言就不会卡  
