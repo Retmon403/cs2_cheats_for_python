@@ -2,16 +2,18 @@
 适用于中国宝宝体质的cs2作弊  
 以前是以前，现在是现在  
 狗鑫：开了就是开了？  
-
-CS2 cheating applicable to the physical constitution of Chinese babies
-
-Previously, now is now
-
-Gouxin: If it's open, it's open?
+CS2 cheating applicable to the physical constitution of Chinese babies  
+Previously, now is now  
+Gouxin: If it's open, it's open?  
 # 功能
-1.esp_box  
-2.esp_bons  
-3.aimbot  
+1.EspBox 
+2.EspBons 
+3.Esp player name/weapon  
+4.Aimbot  
+5.Rcs  
+6.Trigger  
+7.Bhop  
+8.Adjustable parameters  
 # 如何运行
  拥有Python 64bit环境  
 你还需要[pip install ...] 一些关键模块  
