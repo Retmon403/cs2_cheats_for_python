@@ -1,0 +1,1 @@
+{'dwEntityList': 25903016, 'dwLocalPlayerController': 26228984, 'dwViewMatrix': 26301632, 'dwViewAngles': 24348504, 'dwViewAngles_Add': 21392, 'dwForceAttack': 24256976, 'dwForceJump': 24258272}
