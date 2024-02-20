@@ -25,28 +25,17 @@ Gouxin: If it's open, it's open?
   
 为什么要使用ImGui画窗口却用GDI绘制？  
 咱老北京儿人没别的，您猜怎么着？诶，就是这一出~  
+Having a Python 64bit environment  
+You also need to [pip install...] some key modules  
+1. pip install pymem  
+2. pip install pywin32  
+3. pip install ctypes  
+4. pip install pyimgui  
+5. pip install pyglet  
 
-Having a Python 64bit environment
-
-You also need to [pip install...] some key modules
-
-1. pip install pymem
-
-2. pip install pywin32
-
-3. pip install ctypes
-
-4. pip install pyimgui
-
-5. pip install pyglet
-
-
-
-Why use ImGui to draw windows but use GDI to draw?
-
-We from old Beijing have nothing else, guess what? Hey, that's this one~
-
-We are experts in Yi language, and I don't know C++:（
+Why use ImGui to draw windows but use GDI to draw?  
+We from old Beijing have nothing else, guess what? Hey, that's this one~  
+We are experts in Yi language, and I don't know C++:（  
 # 更新日志
 2023/12/7  
 英语很烂，所以变量和函数命名比较随意，但代码逻辑还是很精简的  
