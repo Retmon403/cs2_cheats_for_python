@@ -49,7 +49,7 @@ English is terrible, so variable and function names are quite casual, but the co
 2. Added smooth self aiming and automatic update offset  
 3. Optimized operational efficiency and fixed some bugs  
 I still want to add many functions, but I'm worried that Python will run too laggy  
-_____________________________________________  
+_____________________________________________   
 2024/2/20  
 修复了偏移定位使用的特征码  
 使用了最新的cs2dump client偏移数据  
