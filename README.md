@@ -80,18 +80,11 @@ Fixed trigger efficiency issue
 Some bug fixes and performance optimizations  
 PS: Thank you for using it. If you need to modify the offset yourself, just modify the content in client.py and set UPDATE-OFFSET to false, then modify the offset in the offset_config file  
 # 问题
-你是不是想问我，运行起来为什么这么卡？  
-答：用易语言就不会卡  
-
-为什么不用c++，却用python？  
-答：因为python写起来简单，代码量比c++少一万倍  
-
-如何更新offset?  
-答：main.py中 变量->UPDATE_OFFSET默认为TRUE 程序会自动更新偏移量  
-
-How to update offset?
-
-Answer: Variable ->UPDATE in main.py_ OFF SET defaults to true and the program will automatically update the offset
+你是不是想问我，运行起来为什么这么卡？  答：用易语言就不会卡  
+为什么不用c++，却用python？  答：因为python写起来简单，代码量比c++少一万倍  
+如何更新offset?  答：main.py中 变量->UPDATE_OFFSET默认为TRUE 程序会自动更新偏移量  
+How to update offset?  
+Answer: Variable ->UPDATE in main.py_ OFF SET defaults to true and the program will automatically update the offset  
 # 你好，搞男童了解一下？
 同性交友群:707649195  
 # 截图
