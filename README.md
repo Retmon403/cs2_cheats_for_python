@@ -79,6 +79,15 @@ Added trigger duration control slider
 Fixed trigger efficiency issue  
 Some bug fixes and performance optimizations  
 PS: Thank you for using it. If you need to modify the offset yourself, just modify the content in client.py and set UPDATE-OFFSET to false, then modify the offset in the offset_config file  
+_____________________________________________  
+2024/2/22  
+Entity增加显示掉落物实体，穷举遍历非常影响性能  
+更好的连跳  
+性能优化  
+February 22, 2024  
+Increasing the display of dropped object entities and exhaustive traversal greatly affects performance  
+Better continuous jumping  
+performance optimization  
 # 问题
 你是不是想问我，运行起来为什么这么卡？  答：用易语言就不会卡  
 为什么不用c++，却用python？  答：因为python写起来简单，代码量比c++少一万倍  
