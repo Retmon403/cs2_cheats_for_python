@@ -11,11 +11,12 @@ Gouxin: If it's open, it's open?
 1.EspBox  
 2.EspBons  
 3.Esp player name/weapon  
-4.Aimbot  
-5.Rcs  
-6.Trigger  
-7.Bhop  
-8.Adjustable parameters  
+4.EspEntity/WeaponItems  
+5.Aimbot  
+6.Rcs  
+7.Trigger  
+8.Bhop  
+9.Adjustable parameters  
 # 如何运行
  拥有Python 64bit环境  
 你还需要[pip install ...] 一些关键模块  
