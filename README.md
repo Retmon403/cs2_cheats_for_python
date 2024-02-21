@@ -88,6 +88,7 @@ Answer: Variable ->UPDATE in main.py_ OFF SET defaults to true and the program w
 # 你好，搞男童了解一下？
 同性交友群:707649195  
 # 截图
+![image](https://www.youtube.com/watch?v=tEKdBr8zF08)  
 ![image](https://github.com/Retmon403/cs2_cheats_python/blob/main/5.gif)
 ![image](https://github.com/Retmon403/cs2_cheats_python/blob/main/1.png)
 ![image](https://github.com/Retmon403/cs2_cheats_python/blob/main/3.gif)
