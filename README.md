@@ -1,4 +1,6 @@
 # cs2_cheats_for_python
+https://www.youtube.com/watch?v=tEKdBr8zF08  
+  
 适用于中国宝宝体质的cs2作弊  
 以前是以前，现在是现在  
 狗鑫：开了就是开了？  
