@@ -6,6 +6,7 @@ from cheats.myimgui import *
 
 # 已开源到同性交友网站 https://github.com/Retmon403/cs2_cheats_python/tree/main
 # Cs2Dump https://github.com/a2x/cs2-dumper
+# https://www.youtube.com/watch?v=tEKdBr8zF08
 
 # ==========================================================
 # 2023/12/7
