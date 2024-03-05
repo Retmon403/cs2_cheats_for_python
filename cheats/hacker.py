@@ -92,21 +92,25 @@ class Hacker(Pymem):
                                               0x0, 0x0, 0x0, 0x0, 0x48, 0x85, 0xC0, 0x74, 0x0, 0x8B]) + 2, 3,
                 7) - self.client
             Offset.dwViewMatrix = self.getrelative_addr(
-                self.client + searh_bytes(b, [0x48, 0x8D, 0x0D, 0x0, 0x0, 0x0, 0x0, 0x48, 0xC1, 0xE0, 0x06, 0x48]), 3,
+                self.client +
+                searh_bytes(b, [0x48, 0x8D, 0x0D, 0x0, 0x0, 0x0,
+                            0x0, 0x48, 0xC1, 0xE0, 0x06, 0x48]), 3,
                 7) - self.client
 
-            '''client.dll+71507E - CC                    - int 3 
-            client.dll+71507F - CC                    - int 3 
-            client.dll+715080 - 48 8B 0D D1360201     - mov rcx,[client.dll+1738758]
-            client.dll+715087 - E9 B4D20200           - jmp client.dll+742340
-            client.dll+71508C - CC                    - int 3 
-            client.dll+71508D - CC                    - int 3 
-            client.dll+71508E - CC                    - int 3 
-            client.dll+71508F - CC                    - int 3 
-            client.dll+715090 - 48 C7 02 00000000     - mov qword ptr [rdx],00000000
+            '''client.dll+6D3128 - 74 51                 - je client.dll+6D317B
+client.dll+6D312A - 48 8D 55 67           - lea rdx,[rbp+67]
+client.dll+6D312E - 48 8B CE              - mov rcx,rsi
+client.dll+6D3131 - E8 FA25E9FF           - call client.dll+565730
+client.dll+6D3136 - 48 8B 0D DBCC0601     - mov rcx,[client.dll+173FE18] { (7FFBCBB343A0) }
+client.dll+6D313D - 8B 10                 - mov edx,[rax]
+client.dll+6D313F - E8 7CA30700           - call client.dll+74D4C0
+client.dll+6D3144 - F2 0F10 08            - movsd xmm1,[rax]
+client.dll+6D3148 - 8B 48 08              - mov ecx,[rax+08]
+client.dll+6D314B - 41 F6 C6 01           - test r14l,01 { 1 }
+
             '''
-            view_a = [0x48, 0x8B, 0x0D, 0x0, 0x0, 0x0, 0x0, 0xE9, 0x0,
-                      0x0, 0x0, 0x0, 0xCC, 0xCC, 0xCC, 0xCC, 0x48, 0xC7, 0x02]
+            view_a = [0xE8, 0x00, 0x00, 0x00, 0x00, 0x48, 0x8B, 0x0D, 0x00,
+                      0x00, 0x00, 0x00, 0x8B, 0x00, 0xE8, 0x00, 0x00, 0x00, 0x00, 0xF2]
             '''client.dll+741947 - F3 41 0F10 85 90530000  - movss xmm0,[r13+00005390]
             client.dll+741950 - 83 49 10 01           - or dword ptr [rcx+10],01
             client.dll+741954 - 8B 41 10              - mov eax,[rcx+10]
@@ -116,7 +120,7 @@ class Hacker(Pymem):
             view_b = [0xF3, 0x41, 0x0F, 0x10, 0x00, 0x00, 0x00,
                       0x00, 0x00, 0x83, 0x49, 0x00, 0x00, 0x8B, 0x41, 0x00]
             Offset.dwViewAngles = self.getrelative_addr(
-                self.client + searh_bytes(b, view_a), 3, 7) - self.client
+                self.client + searh_bytes(b, view_a)+5, 3, 7) - self.client
 
             Offset.dwViewAngles_Add = self.mem.read_long(
                 self.client + searh_bytes(b, view_b) + 5)
@@ -125,7 +129,7 @@ class Hacker(Pymem):
                   'jump:', hex(Offset.dwForceJump))
             print('dwEntityList:', hex(Offset.dwEntityList), 'dwLocalPlayerController:', hex(
                 Offset.dwLocalPlayerController), 'dwViewMatrix:', hex(Offset.dwViewMatrix), 'dwViewAngles:',
-                  hex(Offset.dwViewAngles), 'dwViewAngles_Add:', hex(Offset.dwViewAngles_Add))
+                hex(Offset.dwViewAngles), 'dwViewAngles_Add:', hex(Offset.dwViewAngles_Add))
             print('update successful')
 
             return True
@@ -198,7 +202,7 @@ class Hacker(Pymem):
         view = 0.0
         sightx, sighty = self.rect[2] / 2, self.rect[3] / 2
         view = self.mex[3][0] * pos[0] + self.mex[3][1] * \
-               pos[1] + self.mex[3][2] * pos[2] + self.mex[3][3]
+            pos[1] + self.mex[3][2] * pos[2] + self.mex[3][3]
 
         if view <= 0.01:
             return []
@@ -238,7 +242,7 @@ class Hacker(Pymem):
     @staticmethod
     def Calc3dDistance(self_3d, obj_3d):
         return math.sqrt((obj_3d[0] - self_3d[0]) * (obj_3d[0] - self_3d[0]) + (obj_3d[1] - self_3d[1]) * (
-                obj_3d[1] - self_3d[1]) + (obj_3d[2] - self_3d[2]) * (obj_3d[2] - self_3d[2]))
+            obj_3d[1] - self_3d[1]) + (obj_3d[2] - self_3d[2]) * (obj_3d[2] - self_3d[2]))
 
 
 if __name__ == '__main__':
