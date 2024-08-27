@@ -91,6 +91,16 @@ February 22, 2024
 Increasing the display of dropped object entities and exhaustive traversal greatly affects performance  
 Better continuous jumping  
 performance optimization  
+
+_____________________________________________  
+2024/8/27  
+大家过的还好吗，这个夏天非常热  
+由于这是外部，py也无法编译dll，所以我想加入些更变态的功能很困难，比如hook input内的函数...  
+更新了偏移量，优化了代码  
+2024/8/27  
+Are you all doing well? This summer is very hot  
+Since this is external and py cannot compile DLLs, it is difficult for me to add some more abnormal features, such as functions inside hook input  
+Updated offset and optimized code  
 # 问题
 你是不是想问我，运行起来为什么这么卡？  答：用易语言就不会卡  
 为什么不用c++，却用python？  答：因为python写起来简单，代码量比c++少一万倍  
