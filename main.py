@@ -42,7 +42,7 @@ from cheats.myimgui import *
 # 更新了偏移量，优化了代码
 
 # config
-UPDATE_OFFSET = False
+UPDATE_OFFSET = True
 # 如果UPDATE_OFFSET==True 会动态获取偏移
 # 否则不会动态获取偏移，而是读取本地存取的config文件
 # config
