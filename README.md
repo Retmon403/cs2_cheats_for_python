@@ -4,9 +4,7 @@ https://www.youtube.com/watch?v=tEKdBr8zF08
 适用于中国宝宝体质的cs2作弊  
 以前是以前，现在是现在  
 狗鑫：开了就是开了？  
-CS2 cheating applicable to the physical constitution of Chinese babies  
-Previously, now is now  
-Gouxin: If it's open, it's open?  
+
 # 功能
 1.EspBox  
 2.EspBons  
@@ -17,6 +15,7 @@ Gouxin: If it's open, it's open?
 7.Trigger  
 8.Bhop  
 9.Adjustable parameters  
+
 # 如何运行
  拥有Python 64bit环境  
 你还需要[pip install ...] 一些关键模块  
@@ -28,17 +27,13 @@ Gouxin: If it's open, it's open?
   
 为什么要使用ImGui画窗口却用GDI绘制？  
 咱老北京儿人没别的，您猜怎么着？诶，就是这一出~  
-Having a Python 64bit environment  
-You also need to [pip install...] some key modules  
+
 1. pip install pymem  
 2. pip install pywin32  
 3. pip install ctypes  
 4. pip install pyimgui  
 5. pip install pyglet  
 
-Why use ImGui to draw windows but use GDI to draw?  
-We from old Beijing have nothing else, guess what? Hey, that's this one~  
-We are experts in Yi language, and I don't know C++:（  
 # 更新日志
 2023/12/7  
 英语很烂，所以变量和函数命名比较随意，但代码逻辑还是很精简的  
